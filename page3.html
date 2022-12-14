@@ -18,26 +18,28 @@
             <a href="page3.html">Order</a>
         </nav>
     </header>
+    <p><b>Please fill out the following information.</b></p>
+    <p><i>This information will be used to ship your product straight to your door!</i></p>
     <div id="feedback"></div>
     <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_email" />
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Send your message</button>
-          </li>
-        </ul>
-      </form>
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+          <button type="submit">Send your message</button>
+        </li>
+      </ul>
+    </form>
       <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
